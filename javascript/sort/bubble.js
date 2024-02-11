@@ -10,7 +10,7 @@ function arrayPrint(result,label){
   console.log(label + output)
 }
 
-arrayPrint(arr,"Sorted Array is: ")
+arrayPrint(arr,"Original Array is: ")
 
 function bubbleSort(arr, len) {
     for (let i = 0; i < len; i++) {
@@ -25,4 +25,4 @@ function bubbleSort(arr, len) {
 
 const result = bubbleSort(arr, len);
 
-arrayPrint(result,"Original Array is: ")
+arrayPrint(result,"Sorted Array is: ")
